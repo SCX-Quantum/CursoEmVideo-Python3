@@ -1,0 +1,12 @@
+print(30*'§')
+print('   MÉDIA DE NOTAS ESCOLARES')
+print(30*'§')
+mat = str(input('\nQual matéria quer ver sua média?'))
+print('Ótimo, agora vamos para as notas...')
+nota1 = float(input('\nQual a primeira nota?'))
+nota2 = float(input('E qual seria a segunda?'))
+media = (nota1 + nota2) /2
+print(60*'§')
+print('\nSua média escolar na matéria de {} é de {:.2f} pontos.\n'.format(mat, media))
+print(60*'§')
+print('Ainda não descobrimos como lhe fornecer mensagens personalizadas \ncom base em seu resultado. Mas quando aprendermos eu te conto... ')
