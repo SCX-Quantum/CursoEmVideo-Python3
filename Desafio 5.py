@@ -1,0 +1,15 @@
+print(30*'=')
+print('')
+print('    O ANTERIOR E O PROXIMO')
+print('')
+print(30*'=')
+num = int(input('Digite um número para eu avaliar:'))
+ant = num - 1
+prox = num + 1
+print(30*'=')
+print('Avaliando as circunstâncias... \nDe acordo com seu número {} .'.format(num))
+print('O anterior será {} e o próximo será {} .'.format(ant,prox))
+print(30*'=')
+print('Bem, é isso que sei fazer no momento.')
+print('Até a próxima.')
+print(30*'=')
