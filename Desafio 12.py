@@ -1,0 +1,12 @@
+print(25*'$')
+print('   DISCOUNT CALCULATOR')
+print(25*'$')
+print('')
+prod = str(input('Qual o nome do produto que irá comprar?'))
+valor = float(input('Qual o preço atual do(a) {}?'.format(prod)))
+perc = float(input('E qual seria a porcentagem do Desconto que irá aplicar? '))
+disc = (valor * perc / 100)
+total = valor - disc
+print('O(a) {} com {}% de desconto, sairá a R${:.2f}.\nAproveite, foram R${:.2f} economizados!'.format(prod, perc, total, disc))
+print('')
+print(25*'$')
