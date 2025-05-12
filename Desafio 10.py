@@ -1,0 +1,10 @@
+print(38*'$')
+print('    CONVERSOR PORTÁTIL DE DOLLARS')
+print(38*'$')
+print('')
+money = float(input('Quantos reais vc tem agora ai no bolso? R$'))
+dollar = money / 5.65
+print('')
+print('Você é capaz de obter U${:.2f}'.format(dollar))
+print('')
+print('P.S:Calculos baseados de acordo com a cotação do dollar em 10/05/2025 ás 22:17')
