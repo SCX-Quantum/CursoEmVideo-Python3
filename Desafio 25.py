@@ -1,0 +1,7 @@
+print(30*'=')
+print('FAMÍLIA SILVA')
+print(30*'=')
+print('')
+nome = str(input('Digite o seu nome completo:')).strip().lower()
+print('')
+print(f'Você é um verdadeiro SILVA? {'silva' in nome}')
