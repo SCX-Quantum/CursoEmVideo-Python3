@@ -1,0 +1,7 @@
+print(30*'=')
+print('PRIMEIRO E ÚLTIMO NOME')
+print(30*'=')
+print('')
+n = str(input('Digite o seu nome completo:')).strip().lower()
+nome = n.split()
+print(f'Seu primeiro nome é : {nome[0].capitalize()}.\nSeu último nome é : {nome[len(nome)-1].capitalize()}.')
