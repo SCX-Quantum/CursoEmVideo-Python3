@@ -1,0 +1,8 @@
+print(40*'=')
+print('DISPOSITIVO DE AUMENTO DE SALÁRIO')
+print(40*'=')
+print('')
+salario = float(input('Digite seu salário atual:'))
+salario_atualizado = salario + (salario * 10 / 100) if salario >= 1500 else salario + (salario * 15 / 100)
+print('')
+print(f'Seu salário atualizado é de R${salario_atualizado:.2f}')
